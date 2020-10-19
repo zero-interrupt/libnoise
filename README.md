@@ -12,6 +12,8 @@ In libnoise, coherent-noise generators are encapsulated in classes called noise 
 About this Fork
 ---------------
 
+> zero-interrupt update: Fix CMakeLists.txt to add version information for modern CMake versions.
+
 I'm using libnoise, version 1.0.0, in one of my projects and thus had to rebuild libnoise a few times to keep up with the different platforms and dependencies, since the Makefile of the [original source code](http://libnoise.sourceforge.net/downloads/index.html) for version 1.0.0 is broken, I've decided to create a fork and get libnoise to a modern build system, i.e. CMake. I hope it will be of some help to others as well.
 
 To provide an unified way to build libnoise static and shared the dll meta data previously in the `src/win32` directory has been removed.

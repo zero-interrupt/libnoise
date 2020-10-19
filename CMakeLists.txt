@@ -1,5 +1,5 @@
-cmake_minimum_required( VERSION 2.8 )
-project( libnoise )
+cmake_minimum_required( VERSION 3.0.0 )
+project( libnoise 1.0.1 )
 
 set( CMAKE_BUILD_TYPE Release CACHE STRING "Build Type." FORCE )
 set( LIBNOISE_BUILD_SHARED_LIBS FALSE CACHE BOOL "Build shared libraries." )
